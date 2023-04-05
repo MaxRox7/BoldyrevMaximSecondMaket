@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+  
+html {
+  height: 100%;
+}
+
+header {
+  height: 6.875rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.75rem 5rem;
+}
+  body {
+    font-style: normal;
+    font-family: 'Oswald';
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    height: 100%;
+    flex: 1 0;
+    background-color: white;
+}
+
+.header_container {
+  
+  
+  display: flex;
+  align-content: center;
+  
+
+}
+
+.buttons {
+  align-items: center;
+  display: flex;
+  gap: 2.875rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+  
+}
+.coffee_house {
+  opacity: 0.2;
+
+  font-weight: 500;
+  font-size: 2.25rem;
+  
+}
+
+
+footer {
+  height: 4.5rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.COPYRIGHT {
+  margin-top: 0.438rem;
+  font-weight: 300;
+  font-size: 20px;
+}
+.block1 {
+  position: relative;
+  
+}
+.time {
+  position: absolute;
+  bottom: 44%;
+  left: 38.5%;
+  font-weight: 700;
+  color: white;
+  font-size: 60px;
+
+}
+.line {
+position: absolute;
+  width: 50px;
+
+}
+#square {
+  position: absolute;
+  width: 80px;
+  height: 10px;
+  background: #817070;
+  bottom: 42%;
+  left: 46.6%;
+}
+
+.block4{
+  height: 21.063rem;
+  background-color: #817070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.5rem 0rem;
+}
+.subscribe {
+  font-weight: 500;
+  font-size: 36px;
+  color: white;
+
+}
+.email_input {
+    width: 18.75rem;
+    height: 3.438rem;
+    background-color: #817070;
+    border-color: white;
+    text-align: center;
+
+}
+::placeholder{
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+}
+.submit {
+ width: 8.063rem;
+  height: 3.438rem;
+  background-color: white;
+  font-weight: 500;
+  font-size: 20px;
+  color: #817070;
+  border: 0;
+}
+.block2 {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+.block2_text {
+  margin-top: 3.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+  font-weight: 300;
+  font-size: 20px;
+}
+.block3 {
+  justify-content: center;
+  width: 100%;
+  height: 44.438rem;
+  display: flex;
+  margin-top: 3.75rem;
+  background-color: #EFEFEF;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+
+.coffee_news {
+  gap: 1.5rem;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 22.813rem;
+  height: 29.625rem;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.coffee_chains{
+  gap: 1.5rem;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 22.813rem;
+  height: 29.625rem;
+  font-weight: 300;
+  font-size: 18px;
+}
+.start_up {
+  gap: 1.5rem;
+  padding: 1.25rem ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 22.813rem;
+  height: 29.625rem;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.blogs {
+  margin-top: 3.688rem;
+  display: flex;
+  flex-direction: row;
+  gap: 4.375rem;
+}
+h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
